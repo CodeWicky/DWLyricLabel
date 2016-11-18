@@ -15,6 +15,8 @@
 		9BDE69A51DDF9B7400B78842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDE69A31DDF9B7400B78842 /* LaunchScreen.storyboard */; };
 		9BDE69B01DDF9B7400B78842 /* DWLyricLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69AF1DDF9B7400B78842 /* DWLyricLabelTests.m */; };
 		9BDE69BB1DDF9B7400B78842 /* DWLyricLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69BA1DDF9B7400B78842 /* DWLyricLabelUITests.m */; };
+		9BDE69CD1DDF9BB800B78842 /* NSString+DWStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69CA1DDF9BB800B78842 /* NSString+DWStringTool.m */; };
+		9BDE69CE1DDF9BB800B78842 /* DWLyricLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69CC1DDF9BB800B78842 /* DWLyricLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9BDE69B61DDF9B7400B78842 /* DWLyricLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWLyricLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDE69BA1DDF9B7400B78842 /* DWLyricLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWLyricLabelUITests.m; sourceTree = "<group>"; };
 		9BDE69BC1DDF9B7400B78842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDE69C91DDF9BB800B78842 /* NSString+DWStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DWStringTool.h"; sourceTree = "<group>"; };
+		9BDE69CA1DDF9BB800B78842 /* NSString+DWStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWStringTool.m"; sourceTree = "<group>"; };
+		9BDE69CB1DDF9BB800B78842 /* DWLyricLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLyricLabel.h; sourceTree = "<group>"; };
+		9BDE69CC1DDF9BB800B78842 /* DWLyricLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLyricLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		9BDE69941DDF9B7400B78842 /* DWLyricLabel */ = {
 			isa = PBXGroup;
 			children = (
+				9BDE69C81DDF9B9400B78842 /* DWLyricLabel */,
 				9BDE69981DDF9B7400B78842 /* AppDelegate.h */,
 				9BDE69991DDF9B7400B78842 /* AppDelegate.m */,
 				9BDE699B1DDF9B7400B78842 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				9BDE69BC1DDF9B7400B78842 /* Info.plist */,
 			);
 			path = DWLyricLabelUITests;
+			sourceTree = "<group>";
+		};
+		9BDE69C81DDF9B9400B78842 /* DWLyricLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE69C91DDF9BB800B78842 /* NSString+DWStringTool.h */,
+				9BDE69CA1DDF9BB800B78842 /* NSString+DWStringTool.m */,
+				9BDE69CB1DDF9BB800B78842 /* DWLyricLabel.h */,
+				9BDE69CC1DDF9BB800B78842 /* DWLyricLabel.m */,
+			);
+			path = DWLyricLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDE699D1DDF9B7400B78842 /* ViewController.m in Sources */,
+				9BDE69CD1DDF9BB800B78842 /* NSString+DWStringTool.m in Sources */,
 				9BDE699A1DDF9B7400B78842 /* AppDelegate.m in Sources */,
+				9BDE69CE1DDF9BB800B78842 /* DWLyricLabel.m in Sources */,
 				9BDE69971DDF9B7400B78842 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
