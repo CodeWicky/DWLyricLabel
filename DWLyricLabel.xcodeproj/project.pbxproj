@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BDE69971DDF9B7400B78842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69961DDF9B7400B78842 /* main.m */; };
+		9BDE699A1DDF9B7400B78842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69991DDF9B7400B78842 /* AppDelegate.m */; };
+		9BDE699D1DDF9B7400B78842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE699C1DDF9B7400B78842 /* ViewController.m */; };
+		9BDE69A01DDF9B7400B78842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDE699E1DDF9B7400B78842 /* Main.storyboard */; };
+		9BDE69A21DDF9B7400B78842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDE69A11DDF9B7400B78842 /* Assets.xcassets */; };
+		9BDE69A51DDF9B7400B78842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDE69A31DDF9B7400B78842 /* LaunchScreen.storyboard */; };
+		9BDE69B01DDF9B7400B78842 /* DWLyricLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69AF1DDF9B7400B78842 /* DWLyricLabelTests.m */; };
+		9BDE69BB1DDF9B7400B78842 /* DWLyricLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE69BA1DDF9B7400B78842 /* DWLyricLabelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BDE69AC1DDF9B7400B78842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BDE698A1DDF9B7400B78842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDE69911DDF9B7400B78842;
+			remoteInfo = DWLyricLabel;
+		};
+		9BDE69B71DDF9B7400B78842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BDE698A1DDF9B7400B78842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDE69911DDF9B7400B78842;
+			remoteInfo = DWLyricLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BDE69921DDF9B7400B78842 /* DWLyricLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWLyricLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDE69961DDF9B7400B78842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BDE69981DDF9B7400B78842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BDE69991DDF9B7400B78842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BDE699B1DDF9B7400B78842 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BDE699C1DDF9B7400B78842 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BDE699F1DDF9B7400B78842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BDE69A11DDF9B7400B78842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BDE69A41DDF9B7400B78842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BDE69A61DDF9B7400B78842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDE69AB1DDF9B7400B78842 /* DWLyricLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWLyricLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDE69AF1DDF9B7400B78842 /* DWLyricLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWLyricLabelTests.m; sourceTree = "<group>"; };
+		9BDE69B11DDF9B7400B78842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDE69B61DDF9B7400B78842 /* DWLyricLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWLyricLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDE69BA1DDF9B7400B78842 /* DWLyricLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWLyricLabelUITests.m; sourceTree = "<group>"; };
+		9BDE69BC1DDF9B7400B78842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BDE698F1DDF9B7400B78842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDE69A81DDF9B7400B78842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDE69B31DDF9B7400B78842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BDE69891DDF9B7400B78842 = {
+			isa = PBXGroup;
+			children = (
+				9BDE69941DDF9B7400B78842 /* DWLyricLabel */,
+				9BDE69AE1DDF9B7400B78842 /* DWLyricLabelTests */,
+				9BDE69B91DDF9B7400B78842 /* DWLyricLabelUITests */,
+				9BDE69931DDF9B7400B78842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BDE69931DDF9B7400B78842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE69921DDF9B7400B78842 /* DWLyricLabel.app */,
+				9BDE69AB1DDF9B7400B78842 /* DWLyricLabelTests.xctest */,
+				9BDE69B61DDF9B7400B78842 /* DWLyricLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BDE69941DDF9B7400B78842 /* DWLyricLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE69981DDF9B7400B78842 /* AppDelegate.h */,
+				9BDE69991DDF9B7400B78842 /* AppDelegate.m */,
+				9BDE699B1DDF9B7400B78842 /* ViewController.h */,
+				9BDE699C1DDF9B7400B78842 /* ViewController.m */,
+				9BDE699E1DDF9B7400B78842 /* Main.storyboard */,
+				9BDE69A11DDF9B7400B78842 /* Assets.xcassets */,
+				9BDE69A31DDF9B7400B78842 /* LaunchScreen.storyboard */,
+				9BDE69A61DDF9B7400B78842 /* Info.plist */,
+				9BDE69951DDF9B7400B78842 /* Supporting Files */,
+			);
+			path = DWLyricLabel;
+			sourceTree = "<group>";
+		};
+		9BDE69951DDF9B7400B78842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE69961DDF9B7400B78842 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BDE69AE1DDF9B7400B78842 /* DWLyricLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE69AF1DDF9B7400B78842 /* DWLyricLabelTests.m */,
+				9BDE69B11DDF9B7400B78842 /* Info.plist */,
+			);
+			path = DWLyricLabelTests;
+			sourceTree = "<group>";
+		};
+		9BDE69B91DDF9B7400B78842 /* DWLyricLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE69BA1DDF9B7400B78842 /* DWLyricLabelUITests.m */,
+				9BDE69BC1DDF9B7400B78842 /* Info.plist */,
+			);
+			path = DWLyricLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BDE69911DDF9B7400B78842 /* DWLyricLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDE69BF1DDF9B7500B78842 /* Build configuration list for PBXNativeTarget "DWLyricLabel" */;
+			buildPhases = (
+				9BDE698E1DDF9B7400B78842 /* Sources */,
+				9BDE698F1DDF9B7400B78842 /* Frameworks */,
+				9BDE69901DDF9B7400B78842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWLyricLabel;
+			productName = DWLyricLabel;
+			productReference = 9BDE69921DDF9B7400B78842 /* DWLyricLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BDE69AA1DDF9B7400B78842 /* DWLyricLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDE69C21DDF9B7500B78842 /* Build configuration list for PBXNativeTarget "DWLyricLabelTests" */;
+			buildPhases = (
+				9BDE69A71DDF9B7400B78842 /* Sources */,
+				9BDE69A81DDF9B7400B78842 /* Frameworks */,
+				9BDE69A91DDF9B7400B78842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDE69AD1DDF9B7400B78842 /* PBXTargetDependency */,
+			);
+			name = DWLyricLabelTests;
+			productName = DWLyricLabelTests;
+			productReference = 9BDE69AB1DDF9B7400B78842 /* DWLyricLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BDE69B51DDF9B7400B78842 /* DWLyricLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDE69C51DDF9B7500B78842 /* Build configuration list for PBXNativeTarget "DWLyricLabelUITests" */;
+			buildPhases = (
+				9BDE69B21DDF9B7400B78842 /* Sources */,
+				9BDE69B31DDF9B7400B78842 /* Frameworks */,
+				9BDE69B41DDF9B7400B78842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDE69B81DDF9B7400B78842 /* PBXTargetDependency */,
+			);
+			name = DWLyricLabelUITests;
+			productName = DWLyricLabelUITests;
+			productReference = 9BDE69B61DDF9B7400B78842 /* DWLyricLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BDE698A1DDF9B7400B78842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Wicky;
+				TargetAttributes = {
+					9BDE69911DDF9B7400B78842 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9BDE69AA1DDF9B7400B78842 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BDE69911DDF9B7400B78842;
+					};
+					9BDE69B51DDF9B7400B78842 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BDE69911DDF9B7400B78842;
+					};
+				};
+			};
+			buildConfigurationList = 9BDE698D1DDF9B7400B78842 /* Build configuration list for PBXProject "DWLyricLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BDE69891DDF9B7400B78842;
+			productRefGroup = 9BDE69931DDF9B7400B78842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BDE69911DDF9B7400B78842 /* DWLyricLabel */,
+				9BDE69AA1DDF9B7400B78842 /* DWLyricLabelTests */,
+				9BDE69B51DDF9B7400B78842 /* DWLyricLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BDE69901DDF9B7400B78842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDE69A51DDF9B7400B78842 /* LaunchScreen.storyboard in Resources */,
+				9BDE69A21DDF9B7400B78842 /* Assets.xcassets in Resources */,
+				9BDE69A01DDF9B7400B78842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDE69A91DDF9B7400B78842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDE69B41DDF9B7400B78842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BDE698E1DDF9B7400B78842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDE699D1DDF9B7400B78842 /* ViewController.m in Sources */,
+				9BDE699A1DDF9B7400B78842 /* AppDelegate.m in Sources */,
+				9BDE69971DDF9B7400B78842 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDE69A71DDF9B7400B78842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDE69B01DDF9B7400B78842 /* DWLyricLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDE69B21DDF9B7400B78842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDE69BB1DDF9B7400B78842 /* DWLyricLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BDE69AD1DDF9B7400B78842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BDE69911DDF9B7400B78842 /* DWLyricLabel */;
+			targetProxy = 9BDE69AC1DDF9B7400B78842 /* PBXContainerItemProxy */;
+		};
+		9BDE69B81DDF9B7400B78842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BDE69911DDF9B7400B78842 /* DWLyricLabel */;
+			targetProxy = 9BDE69B71DDF9B7400B78842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BDE699E1DDF9B7400B78842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BDE699F1DDF9B7400B78842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BDE69A31DDF9B7400B78842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BDE69A41DDF9B7400B78842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BDE69BD1DDF9B7500B78842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BDE69BE1DDF9B7500B78842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BDE69C01DDF9B7500B78842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DWLyricLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DWLyricLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BDE69C11DDF9B7500B78842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DWLyricLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DWLyricLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BDE69C31DDF9B7500B78842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DWLyricLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DWLyricLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWLyricLabel.app/DWLyricLabel";
+			};
+			name = Debug;
+		};
+		9BDE69C41DDF9B7500B78842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DWLyricLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DWLyricLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWLyricLabel.app/DWLyricLabel";
+			};
+			name = Release;
+		};
+		9BDE69C61DDF9B7500B78842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DWLyricLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DWLyricLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWLyricLabel;
+			};
+			name = Debug;
+		};
+		9BDE69C71DDF9B7500B78842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DWLyricLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DWLyricLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWLyricLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BDE698D1DDF9B7400B78842 /* Build configuration list for PBXProject "DWLyricLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDE69BD1DDF9B7500B78842 /* Debug */,
+				9BDE69BE1DDF9B7500B78842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDE69BF1DDF9B7500B78842 /* Build configuration list for PBXNativeTarget "DWLyricLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDE69C01DDF9B7500B78842 /* Debug */,
+				9BDE69C11DDF9B7500B78842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BDE69C21DDF9B7500B78842 /* Build configuration list for PBXNativeTarget "DWLyricLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDE69C31DDF9B7500B78842 /* Debug */,
+				9BDE69C41DDF9B7500B78842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BDE69C51DDF9B7500B78842 /* Build configuration list for PBXNativeTarget "DWLyricLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDE69C61DDF9B7500B78842 /* Debug */,
+				9BDE69C71DDF9B7500B78842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BDE698A1DDF9B7400B78842 /* Project object */;
+}
